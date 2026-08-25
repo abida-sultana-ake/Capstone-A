@@ -387,5 +387,3 @@ Class Balance:
 ```
 
 The final dataset is intended to support the **cross-language semantic clone verification stage** of the Capstone-A methodology.
-
-```
