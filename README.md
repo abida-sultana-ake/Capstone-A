@@ -302,15 +302,19 @@ merge_datasets.py
 ### Script Responsibilities
 
 **`make_positive_pairs.py`**
+
 Extracts aligned Java–Python positive pairs from XLCoST.
 
 **`make_positive_subset.py`**
+
 Selects the smaller reproducible positive subset used for the Capstone experiment.
 
 **`make_negative_pairs.py`**
+
 Constructs Java–Python negative pairs using different benchmark program IDs.
 
 **`merge_datasets.py`**
+
 Combines the positive and negative examples into the final train, validation, and test datasets.
 
 ---
@@ -383,3 +387,5 @@ Class Balance:
 ```
 
 The final dataset is intended to support the **cross-language semantic clone verification stage** of the Capstone-A methodology.
+
+```
